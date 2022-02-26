@@ -91,13 +91,17 @@ hr{
   color: hsl(178, 100%, 50%);
 }
 
+.price::before{
+  content: url("images/icon-ethereum.svg");
+}
+
 .time-left{
   color: hsl(215, 51%, 70%);
 }
 
 .prof-picture{
   width: 30px;
-  border: 0.5px solid white;
+  border: 0.5px solid hsl(0, 0%, 100%);
   border-radius: 50%;
 }
 .creator {
