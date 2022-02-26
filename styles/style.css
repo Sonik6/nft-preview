@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+  height: 100vh;
+}
+.equilibrium{
+  max-width: 250px;
+  border-radius: 0.6rem;
+}
+
+.box-img{
+  position: relative;
+}
+.box-img:hover .hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.hover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsla(178, 100%, 50%, 0.5);
+  width: 250px;
+  height: 250px;
+  border-radius: 0.6rem;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 50%, 16%);
+  padding: 15px;
+  border-radius: 0.75rem;
+}
+
+.container > *{
+  width: 100%;
+}
+
+h1{
+  font-size: 1.2rem;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+hr{
+  width: 100%;
+  border: 1px solid hsl(215, 32%, 27%);
+}
+
+.desc{
+  font-size: 0.9rem;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+.price-tag{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price, .time-left{
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.price {
+  color: hsl(178, 100%, 50%);
+}
+
+.time-left{
+  color: hsl(215, 51%, 70%);
+}
+
+.prof-picture{
+  width: 30px;
+  border: 0.5px solid white;
+  border-radius: 50%;
+}
+.creator {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 0.85rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.anchor{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
