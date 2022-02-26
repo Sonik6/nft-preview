@@ -62,11 +62,13 @@ main{
 
 h1{
   font-size: 1.2rem;
-  color: hsl(178, 100%, 50%);
+  color: hsl(0, 0%, 100%);
   font-weight: 600;
-  cursor: pointer;
 }
-
+h1:hover{
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
 hr{
   width: 100%;
   border: 1px solid hsl(215, 32%, 27%);
@@ -113,6 +115,10 @@ hr{
 }
 
 .anchor{
+  color: hsl(0, 0%, 100%);
+  cursor: pointer;
+}
+.anchor:hover{
   color: hsl(178, 100%, 50%);
   cursor: pointer;
 }
