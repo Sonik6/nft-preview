@@ -101,6 +101,10 @@ hr{
   color: hsl(215, 51%, 70%);
 }
 
+.time-left::before{
+  content: url("./images/icon-clock.svg");
+}
+
 .prof-picture{
   width: 30px;
   border: 0.5px solid hsl(0, 0%, 100%);
